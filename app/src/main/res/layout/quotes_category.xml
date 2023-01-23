@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/QuotesCategoryBtn"
+    android:layout_marginHorizontal="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginVertical="7dp"
+    app:cardCornerRadius="10dp">
+
+        <TextView
+            android:background="@drawable/gradient"
+            android:id="@+id/QuotesCategoryTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Alone"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+</androidx.cardview.widget.CardView>
